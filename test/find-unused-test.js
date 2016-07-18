@@ -2,7 +2,7 @@
 
 const { assert } = require('chai');
 
-const findUnused = require('../lib/find-unused');
+const { findUnused } = require('..');
 
 describe('findUnused', () => {
   function test(sass, expectedUnused) {
