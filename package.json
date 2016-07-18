@@ -1,0 +1,19 @@
+{
+  "name": "sass-unused",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Robert Knight <robertknight@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.0.5",
+    "gonzales-pe": "^3.3.6"
+  },
+  "bin": {
+    "sass-unused": "./cli.js"
+  }
+}
