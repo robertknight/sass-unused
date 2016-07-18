@@ -1,6 +1,6 @@
 {
   "name": "sass-unused",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "glob": "^7.0.5",
     "gonzales-pe": "^3.3.6"
   },
+  "repository": "robertknight/sass-unused",
   "bin": {
     "sass-unused": "./cli.js"
   },
