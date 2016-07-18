@@ -1,6 +1,8 @@
 sass-unused
 ===========
 
+[![Build Status](https://travis-ci.org/robertknight/sass-unused.png?branch=master)](https://travis-ci.org/robertknight/sass-unused)
+
 A utility for finding unused variables, mixins and functions in a collection of
 SASS files, built on the
 [gonzales-pe](https://github.com/tonyganch/gonzales-pe) parser.
