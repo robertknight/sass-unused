@@ -2,7 +2,7 @@
 
 const glob = require('glob');
 
-const findUnused = require('./lib/find-unused-vars');
+const findUnused = require('./lib/find-unused');
 
 let srcFiles = [];
 process.argv.slice(2).forEach(arg => {
