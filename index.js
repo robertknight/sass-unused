@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  findUnusedVars: require('./lib/find-unused-vars');
+  findUnused: require('./lib/find-unused-vars');
 };
 

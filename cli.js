@@ -2,13 +2,13 @@
 
 const glob = require('glob');
 
-const findUnusedVars = require('./lib/find-unused-vars');
+const findUnused = require('./lib/find-unused-vars');
 
 let srcFiles = [];
 process.argv.slice(2).forEach(arg => {
   srcFiles = srcFiles.concat(glob.sync(arg));
 });
 
-findUnusedVars(srcFiles).forEach(ident => {
+findUnused(srcFiles).forEach(ident => {
   console.log(ident);
 });
