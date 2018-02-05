@@ -11,14 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "glob": "^7.0.5",
-    "gonzales-pe": "^3.3.6"
+    "gonzales-pe": "^4.2.3"
   },
   "repository": "robertknight/sass-unused",
   "bin": {
     "sass-unused": "./cli.js"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
   }
 }
