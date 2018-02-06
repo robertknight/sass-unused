@@ -37,4 +37,8 @@ $used: red;
   it('should not return used functions', () => {
     test(`@function foo(); .bar { color: foo(); }`, []);
   });
+  
+  it('should parse interpolation', () => {
+    test(`@mixin color($sel: ".color") { #{$sel}-1 { color: red; } }`, ['color']);
+  });
 });
