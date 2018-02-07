@@ -1,5 +1,7 @@
 'use strict';
 
+const values = require('lodash.values');
+const flatten = require('lodash.flatten');
 const { assert } = require('chai');
 
 const { findUnused } = require('..');
@@ -7,7 +9,12 @@ const { findUnused } = require('..');
 describe('findUnused', () => {
   function test(sass, expectedUnused) {
     const resolve = _ => sass;
-    assert.deepEqual(findUnused(['test.scss'], resolve), expectedUnused);
+
+    let result = findUnused(['test.scss'], resolve);
+    result = flatten(values(result));
+    result = result.map(variable => variable.name);
+
+    assert.deepEqual(result, expectedUnused);
   }
 
   it('should return unused variables', () => {
