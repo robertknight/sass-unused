@@ -1,5 +1,5 @@
 {
-  "name": "sass-unused",
+  "name": "sass-unused2",
   "version": "0.3.0",
   "description": "",
   "main": "index.js",
@@ -7,13 +7,13 @@
     "test": "mocha"
   },
   "keywords": [],
-  "author": "Robert Knight <robertknight@gmail.com>",
-  "license": "ISC",
+  "author": "Orbit (http://www.orbitbenefits.com)",
+  "license": "GPL-3.0",
   "dependencies": {
     "glob": "^7.0.5",
     "gonzales-pe": "^4.2.3"
   },
-  "repository": "robertknight/sass-unused",
+  "repository": "github:orbit-tech/sass-unused",
   "bin": {
     "sass-unused": "./cli.js"
   },

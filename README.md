@@ -1,7 +1,7 @@
-sass-unused
-===========
+sass-unused2
+============
 
-[![Build Status](https://travis-ci.org/robertknight/sass-unused.png?branch=master)](https://travis-ci.org/robertknight/sass-unused)
+[![Build Status](https://travis-ci.org/orbit-tech/sass-unused2.png?branch=master)](https://travis-ci.org/orbit-tech/sass-unused2)
 
 A utility for finding unused variables, mixins and functions in a collection of
 SASS files, built on the
@@ -23,7 +23,7 @@ elsewhere.
 ### Library
 
 ```
-var sassUnused = require('sass-unused')
+var sassUnused = require('sass-unused2')
 
 sassUnused.findUnused('src/**/*.scss')
   .forEach(ident => console.log(ident))
