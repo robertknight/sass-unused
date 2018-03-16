@@ -1,7 +1,7 @@
-sass-unused2
-============
+sass-unused
+===========
 
-[![Build Status](https://travis-ci.org/orbit-tech/sass-unused2.png?branch=master)](https://travis-ci.org/orbit-tech/sass-unused2)
+[![Build Status](https://travis-ci.org/orbit-tech/sass-unused.png?branch=master)](https://travis-ci.org/orbit-tech/sass-unused)
 
 A utility for finding unused variables, mixins and functions in a collection of
 SASS files, built on the
@@ -12,7 +12,7 @@ SASS files, built on the
 ### Command Line
 
 ```
-npm install -g sass-unused
+npm install -g @orbit-tech/sass-unused
 sass-unused 'src/**/*.scss'
 ```
 
@@ -23,7 +23,7 @@ elsewhere.
 ### Library
 
 ```
-var sassUnused = require('sass-unused2')
+var sassUnused = require('@orbit-tech/sass-unused')
 
 sassUnused.findUnused('src/**/*.scss')
   .forEach(ident => console.log(ident))
