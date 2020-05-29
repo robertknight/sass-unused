@@ -10,7 +10,7 @@ SASS files.
 
 ### Command Line
 
-```
+```sh
 npm install -g sass-unused
 sass-unused 'src/**/*.scss'
 ```
@@ -21,7 +21,7 @@ elsewhere.
 
 ### Library
 
-```
+```js
 var { findUnused } = require('sass-unused')
 
 // "unused" is an object with keys for different types of SASS item
