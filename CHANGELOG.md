@@ -1,6 +1,6 @@
 # Change Log
 
-## [0.4.0] - 2020-05-28
+## [0.5.0] - 2020-05-29
 
  * Support SASS files that use SASS modules (`@use`). In order to do this,
    the parser was changed from gonzales-pe to postcss-scss.
